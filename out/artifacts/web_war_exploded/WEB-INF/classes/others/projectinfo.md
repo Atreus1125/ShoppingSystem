@@ -1,0 +1,10 @@
+# Session清单
+1. `checkcode`：存储验证码，用于`register.jsp`与`login.jsp`显示。
+2. `register_error_info`：注册失败原因，用于`register.jsp`回显。
+3. `error_people`：注册失败的表单信息，用于`register.jsp`回填。
+4. `login_error_info`：登录失败原因，用于`login.jsp`回显。
+5. `now_people`：当前登录用户，在登录成功时创建，用于提取用户信息。
+6. `now_goods`：当前浏览商品，用于表单提交后`GoodsServlet`识别商品。
+7. `submit_info`：订单提交信息，用于`shopCar.jsp`回显。
+8. `orderIndexList`：订单索引查询结果，用于`order.jsp`显示。
+9. `orderDetailHashmap`：订单详情查询结果，用于`order.jsp`显示。
